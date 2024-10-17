@@ -1,0 +1,17 @@
+pybind11/
+
+school/cgpa/build/*
+
+math/area2dshapes/build/*
+
+math/derivatives/build/*
+
+math/grade_calculator/build/*
+
+math/integration/build/*
+
+ascii/build/*
+
+*.pyc
+
+__pycache__/
