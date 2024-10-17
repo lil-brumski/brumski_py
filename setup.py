@@ -90,113 +90,113 @@ else:
       subprocess.run(["rm", "-rf", "pybind11"], cwd = "school/cgpa")
       
       
-#For math.area2dshapes 
-if not os.path.exists('math/area2dshapes/pybind11'):
-   subprocess.run(["cp", "-rf", "pybind11", "math/area2dshapes"])
-   if not os.path.exists('math/area2dshapes/build'):
-      subprocess.run(["mkdir", "build"], cwd = "math/area2dshapes")
-      subprocess.run(["cmake", ".."], cwd = "math/area2dshapes/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/area2dshapes/build")
+#For maths.area2dshapes 
+if not os.path.exists('maths/area2dshapes/pybind11'):
+   subprocess.run(["cp", "-rf", "pybind11", "maths/area2dshapes"])
+   if not os.path.exists('maths/area2dshapes/build'):
+      subprocess.run(["mkdir", "build"], cwd = "maths/area2dshapes")
+      subprocess.run(["cmake", ".."], cwd = "maths/area2dshapes/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/area2dshapes/build")
       subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/area2dshapes")
    else:  
-      subprocess.run(["rm", "-rf", "build"], cwd = "math/area2dshapes")
-      subprocess.run(["mkdir", "build"], cwd = "math/area2dshapes")
-      subprocess.run(["cmake", ".."], cwd = "math/area2dshapes/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/area2dshapes/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/area2dshapes")
+      subprocess.run(["rm", "-rf", "build"], cwd = "maths/area2dshapes")
+      subprocess.run(["mkdir", "build"], cwd = "maths/area2dshapes")
+      subprocess.run(["cmake", ".."], cwd = "maths/area2dshapes/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/area2dshapes/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/area2dshapes")
 else:
-   if not os.path.exists('math/area2dshapes/build'):
-      subprocess.run(["mkdir", "build"], cwd = "math/area2dshapes")
-      subprocess.run(["cmake", ".."], cwd = "math/area2dshapes/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/area2dshapes/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/area2dshapes")
+   if not os.path.exists('maths/area2dshapes/build'):
+      subprocess.run(["mkdir", "build"], cwd = "maths/area2dshapes")
+      subprocess.run(["cmake", ".."], cwd = "maths/area2dshapes/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/area2dshapes/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/area2dshapes")
    else:  
-      subprocess.run(["rm", "-rf", "build"], cwd = "math/area2dshapes")
-      subprocess.run(["mkdir", "build"], cwd = "math/area2dshapes")
-      subprocess.run(["cmake", ".."], cwd = "math/area2dshapes/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/area2dshapes/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/area2dshapes")
+      subprocess.run(["rm", "-rf", "build"], cwd = "maths/area2dshapes")
+      subprocess.run(["mkdir", "build"], cwd = "maths/area2dshapes")
+      subprocess.run(["cmake", ".."], cwd = "maths/area2dshapes/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/area2dshapes/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/area2dshapes")
       
       
-#For math.grade_calculator
-if not os.path.exists('math/grade_calculator/pybind11'):
-   subprocess.run(["cp", "-rf", "pybind11", "math/grade_calculator"])
-   if not os.path.exists('math/grade_calculator/build'):
-      subprocess.run(["mkdir", "build"], cwd = "math/grade_calculator")
-      subprocess.run(["cmake", ".."], cwd = "math/grade_calculator/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/grade_calculator/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/grade_calculator")
+#For maths.grade_calculator
+if not os.path.exists('maths/grade_calculator/pybind11'):
+   subprocess.run(["cp", "-rf", "pybind11", "maths/grade_calculator"])
+   if not os.path.exists('maths/grade_calculator/build'):
+      subprocess.run(["mkdir", "build"], cwd = "maths/grade_calculator")
+      subprocess.run(["cmake", ".."], cwd = "maths/grade_calculator/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/grade_calculator/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/grade_calculator")
    else:  
-      subprocess.run(["rm", "-rf", "build"], cwd = "math/grade_calculator")
-      subprocess.run(["mkdir", "build"], cwd = "math/grade_calculator")
-      subprocess.run(["cmake", ".."], cwd = "math/grade_calculator/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/grade_calculator/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/grade_calculator")
+      subprocess.run(["rm", "-rf", "build"], cwd = "maths/grade_calculator")
+      subprocess.run(["mkdir", "build"], cwd = "maths/grade_calculator")
+      subprocess.run(["cmake", ".."], cwd = "maths/grade_calculator/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/grade_calculator/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/grade_calculator")
 else:
-   if not os.path.exists('math/calculator/build'):
-      subprocess.run(["mkdir", "build"], cwd = "math/grade_calculator")
-      subprocess.run(["cmake", ".."], cwd = "math/grade_calculator/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/grade_calculator/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/grade_calculator")
+   if not os.path.exists('maths/calculator/build'):
+      subprocess.run(["mkdir", "build"], cwd = "maths/grade_calculator")
+      subprocess.run(["cmake", ".."], cwd = "maths/grade_calculator/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/grade_calculator/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/grade_calculator")
    else:  
-      subprocess.run(["rm", "-rf", "build"], cwd = "math/grade_calculator")
-      subprocess.run(["mkdir", "build"], cwd = "math/grade_calculator")
-      subprocess.run(["cmake", ".."], cwd = "math/grade_calculator/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/grade_calculator/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/grade_calculator")
+      subprocess.run(["rm", "-rf", "build"], cwd = "maths/grade_calculator")
+      subprocess.run(["mkdir", "build"], cwd = "maths/grade_calculator")
+      subprocess.run(["cmake", ".."], cwd = "maths/grade_calculator/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/grade_calculator/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/grade_calculator")
       
       
-#For math.derivatives
-if not os.path.exists('math/derivatives/pybind11'):
-   subprocess.run(["cp", "-rf", "pybind11", "math/derivatives"])
-   if not os.path.exists('math/derivatives/build'):
-      subprocess.run(["mkdir", "build"], cwd = "math/derivatives")
-      subprocess.run(["cmake", ".."], cwd = "math/derivatives/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/derivatives/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/derivatives")
+#For maths.derivatives
+if not os.path.exists('maths/derivatives/pybind11'):
+   subprocess.run(["cp", "-rf", "pybind11", "maths/derivatives"])
+   if not os.path.exists('maths/derivatives/build'):
+      subprocess.run(["mkdir", "build"], cwd = "maths/derivatives")
+      subprocess.run(["cmake", ".."], cwd = "maths/derivatives/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/derivatives/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/derivatives")
    else:  
-      subprocess.run(["rm", "-rf", "build"], cwd = "math/derivatives")
-      subprocess.run(["mkdir", "build"], cwd = "math/derivatives")
-      subprocess.run(["cmake", ".."], cwd = "math/derivatives/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/derivatives/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/derivatives")
+      subprocess.run(["rm", "-rf", "build"], cwd = "maths/derivatives")
+      subprocess.run(["mkdir", "build"], cwd = "maths/derivatives")
+      subprocess.run(["cmake", ".."], cwd = "maths/derivatives/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/derivatives/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/derivatives")
 else:
-   if not os.path.exists('math/derivatives/build'):
-      subprocess.run(["mkdir", "build"], cwd = "math/derivatives")
-      subprocess.run(["cmake", ".."], cwd = "math/derivatives/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/derivatives/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/derivatives")
+   if not os.path.exists('maths/derivatives/build'):
+      subprocess.run(["mkdir", "build"], cwd = "maths/derivatives")
+      subprocess.run(["cmake", ".."], cwd = "maths/derivatives/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/derivatives/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/derivatives")
    else:  
-      subprocess.run(["rm", "-rf", "build"], cwd = "math/derivatives")
-      subprocess.run(["mkdir", "build"], cwd = "math/derivatives")
-      subprocess.run(["cmake", ".."], cwd = "math/derivatives/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/derivatives/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/derivatives")
+      subprocess.run(["rm", "-rf", "build"], cwd = "maths/derivatives")
+      subprocess.run(["mkdir", "build"], cwd = "maths/derivatives")
+      subprocess.run(["cmake", ".."], cwd = "maths/derivatives/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/derivatives/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/derivatives")
       
       
 #For math.integration
-if not os.path.exists('math/integration/pybind11'):
-   subprocess.run(["cp", "-rf", "pybind11", "math/integration"])
-   if not os.path.exists('math/integration/build'):
-      subprocess.run(["mkdir", "build"], cwd = "math/integration")
-      subprocess.run(["cmake", ".."], cwd = "math/integration/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/integration/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/integration")
+if not os.path.exists('maths/integration/pybind11'):
+   subprocess.run(["cp", "-rf", "pybind11", "maths/integration"])
+   if not os.path.exists('maths/integration/build'):
+      subprocess.run(["mkdir", "build"], cwd = "maths/integration")
+      subprocess.run(["cmake", ".."], cwd = "maths/integration/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/integration/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/integration")
    else:  
-      subprocess.run(["rm", "-rf", "build"], cwd = "math/integration")
-      subprocess.run(["mkdir", "build"], cwd = "math/integration")
-      subprocess.run(["cmake", ".."], cwd = "math/integration/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/integration/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/integration")
+      subprocess.run(["rm", "-rf", "build"], cwd = "maths/integration")
+      subprocess.run(["mkdir", "build"], cwd = "maths/integration")
+      subprocess.run(["cmake", ".."], cwd = "maths/integration/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/integration/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/integration")
 else:
-   if not os.path.exists('math/integration/build'):
-      subprocess.run(["mkdir", "build"], cwd = "math/integration")
-      subprocess.run(["cmake", ".."], cwd = "math/integration/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/integration/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/integration")
+   if not os.path.exists('maths/integration/build'):
+      subprocess.run(["mkdir", "build"], cwd = "maths/integration")
+      subprocess.run(["cmake", ".."], cwd = "maths/integration/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/integration/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/integration")
    else:  
-      subprocess.run(["rm", "-rf", "build"], cwd = "math/integration")
-      subprocess.run(["mkdir", "build"], cwd = "math/integration")
-      subprocess.run(["cmake", ".."], cwd = "math/integration/build")
-      subprocess.run(["cmake", "--build", "."], cwd = "math/integration/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/integration")
+      subprocess.run(["rm", "-rf", "build"], cwd = "maths/integration")
+      subprocess.run(["mkdir", "build"], cwd = "maths/integration")
+      subprocess.run(["cmake", ".."], cwd = "maths/integration/build")
+      subprocess.run(["cmake", "--build", "."], cwd = "maths/integration/build")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/integration")

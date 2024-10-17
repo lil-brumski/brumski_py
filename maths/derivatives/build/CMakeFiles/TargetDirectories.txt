@@ -1,0 +1,5 @@
+/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/derivatives/build/CMakeFiles/derivatives.dir
+/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/derivatives/build/CMakeFiles/edit_cache.dir
+/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/derivatives/build/CMakeFiles/rebuild_cache.dir
+/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/derivatives/build/pybind11/CMakeFiles/edit_cache.dir
+/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/derivatives/build/pybind11/CMakeFiles/rebuild_cache.dir

@@ -81,7 +81,7 @@ Then to download this library, do this:
 OR
 
 ```bash
-   git clone https://github.com/lil-brumski/brumski_py.git
+   $ git clone https://github.com/lil-brumski/brumski_py.git
    $ cd brumski_py
    $ git clone https://github.com/pybind/pybind11.git
    $ python setup.py
