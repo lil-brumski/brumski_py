@@ -2,13 +2,13 @@ pybind11/
 
 school/cgpa/build/*
 
-math/area2dshapes/build/*
+maths/area2dshapes/build/*
 
-math/derivatives/build/*
+maths/derivatives/build/*
 
-math/grade_calculator/build/*
+maths/grade_calculator/build/*
 
-math/integration/build/*
+maths/integration/build/*
 
 ascii/build/*
 
