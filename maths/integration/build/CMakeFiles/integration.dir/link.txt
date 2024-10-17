@@ -1,1 +1,0 @@
-/data/data/com.termux/files/usr/bin/c++ -fPIC -O2 -g -DNDEBUG -shared  -o integration.cpython-312.so CMakeFiles/integration.dir/integration.cpp.o  /data/data/com.termux/files/usr/lib/libpython3.12.so

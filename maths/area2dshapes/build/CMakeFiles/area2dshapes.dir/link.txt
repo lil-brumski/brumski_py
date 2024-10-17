@@ -1,1 +1,0 @@
-/data/data/com.termux/files/usr/bin/c++ -fPIC -O2 -g -DNDEBUG -shared  -o area2dshapes.cpython-312.so CMakeFiles/area2dshapes.dir/area2dshapes.cpp.o  /data/data/com.termux/files/usr/lib/libpython3.12.so

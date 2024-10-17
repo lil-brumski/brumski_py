@@ -1,5 +1,0 @@
-/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/grade_calculator/build/CMakeFiles/grade_calculator.dir
-/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/grade_calculator/build/CMakeFiles/edit_cache.dir
-/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/grade_calculator/build/CMakeFiles/rebuild_cache.dir
-/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/grade_calculator/build/pybind11/CMakeFiles/edit_cache.dir
-/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/grade_calculator/build/pybind11/CMakeFiles/rebuild_cache.dir

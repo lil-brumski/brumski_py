@@ -1,5 +1,0 @@
-/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/area2dshapes/build/CMakeFiles/area2dshapes.dir
-/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/area2dshapes/build/CMakeFiles/edit_cache.dir
-/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/area2dshapes/build/CMakeFiles/rebuild_cache.dir
-/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/area2dshapes/build/pybind11/CMakeFiles/edit_cache.dir
-/storage/emulated/0/Documents/Cxxdroid/BRUMSKI_LIBRARIES/brumski_py/math/area2dshapes/build/pybind11/CMakeFiles/rebuild_cache.dir

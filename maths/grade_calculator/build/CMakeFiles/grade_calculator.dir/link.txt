@@ -1,1 +1,0 @@
-/data/data/com.termux/files/usr/bin/c++ -fPIC -O2 -g -DNDEBUG -shared  -o grade_calculator.cpython-312.so CMakeFiles/grade_calculator.dir/grade_calculator.cpp.o  /data/data/com.termux/files/usr/lib/libpython3.12.so
