@@ -97,7 +97,7 @@ if not os.path.exists('maths/area2dshapes/pybind11'):
       subprocess.run(["mkdir", "build"], cwd = "maths/area2dshapes")
       subprocess.run(["cmake", ".."], cwd = "maths/area2dshapes/build")
       subprocess.run(["cmake", "--build", "."], cwd = "maths/area2dshapes/build")
-      subprocess.run(["rm", "-rf", "pybind11"], cwd = "math/area2dshapes")
+      subprocess.run(["rm", "-rf", "pybind11"], cwd = "maths/area2dshapes")
    else:  
       subprocess.run(["rm", "-rf", "build"], cwd = "maths/area2dshapes")
       subprocess.run(["mkdir", "build"], cwd = "maths/area2dshapes")
