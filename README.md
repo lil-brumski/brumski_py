@@ -92,20 +92,18 @@ Code example:
 ```python
    import brumski_py
 
+
    brumski_py.name()
 
    area = brumski_py.square(3)
-
    print(f"The area is {area}")
 
    derive = brumski_py.Differential(5, 'x', 2)
-
    print(f"The derivative of 5x² is {derive.diff()}")
 
    print(f"You had a/an {brumski_py.calculator(75)}")
 
    result = brumski_py.course_grade("MTH101")
-
    print(f"You had a/an {result}")
 ```
 
