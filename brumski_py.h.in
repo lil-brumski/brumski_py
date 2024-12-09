@@ -1,0 +1,5 @@
+#pragma once
+
+#define brumski_py_VERSION_MAJOR @brumski_py_VERSION_MAJOR@
+#define brumski_py_VERSION_MINOR @brumski_py_VERSION_MINOR@
+#define brumski_py_VERSION_PATCH @brumski_py_VERSION_PATCH@

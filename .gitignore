@@ -1,17 +1,7 @@
 pybind11/
 
-school/cgpa/build/*
-
-maths/area2dshapes/build/*
-
-maths/derivatives/build/*
-
-maths/grade_calculator/build/*
-
-maths/integration/build/*
-
-ascii/build/*
-
-*.pyc
+build/
 
 __pycache__/
+
+include/brumski_py/brumski_py.h

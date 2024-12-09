@@ -6,85 +6,23 @@ This library is still under construction, some features and documentation are st
 
 To get this library on your device, you'd need to get some packages first using:
 
+Ubuntu/Debian
 ```bash
-   $ pkg install clang cmake python git
+   $ apt install clang cmake python git
 ```
 
+Arch
+```bash
+   $ pacman install clang cmake python git
+```
 Then to download this library, do this:
 
 ```bash
    $ git clone https://github.com/lil-brumski/brumski_py.git
    $ cd brumski_py
-   $ git clone https://github.com/pybind/pybind11.git
-
-   $ cp -r pybind11/ ascii/
-   $ cd ascii
-   $ mkdir build 
-   $ cd build
-   $ cmake ..
-   $ cmake --build .
-   $ cd ..
-   $ rm -rf pybind11
-   $ cd ..
-
-   $ cp -r pybind11/ school/cgpa/
-   $ cd school/cgpa
-   $ mkdir build 
-   $ cd build
-   $ cmake ..
-   $ cmake --build .
-   $ cd ..
-   $ rm -rf pybind11
-   $ cd ../..
-
-   $ cp -r pybind11/ math/area2dshapes
-   $ cd math/area2dshapes
-   $ mkdir build 
-   $ cd build
-   $ cmake ..
-   $ cmake --build .
-   $ cd ..
-   $ rm -rf pybind11
-   $ cd ../..
-
-   $ cp -r pybind11/ math/derivatives 
-   $ cd math/derivatives 
-   $ mkdir build 
-   $ cd build
-   $ cmake ..
-   $ cmake --build .
-   $ cd ..
-   $ rm -rf pybind11
-   $ cd ../..
-
-   $ cp -r pybind11/ math/integration 
-   $ cd math/integration 
-   $ mkdir build 
-   $ cd build
-   $ cmake ..
-   $ cmake --build .
-   $ cd ..
-   $ rm -rf pybind11
-   $ cd ../..
-
-   $ cp -r pybind11/ math/grade_calculator
-   $ cd math/grade_calculator
-   $ mkdir build 
-   $ cd build
-   $ cmake ..
-   $ cmake --build .
-   $ cd ..
-   $ rm -rf pybind11
-   $ cd ../..
-```
-
-OR
-
-```bash
-   $ git clone https://github.com/lil-brumski/brumski_py.git
-   $ cd brumski_py
-   $ git clone https://github.com/pybind/pybind11.git
-   $ python setup.py
+   $ mkdir build && cd build
+   $ cmake .. -DADD_DER_INT=ON
+   $ make
 ```
 
 Code example:
@@ -95,7 +33,7 @@ Code example:
 
    brumski_py.name()
 
-   area = brumski_py.square(3)
+   area = brumski_py.area2dshapes.square(3)
    print(f"The area is {area}")
 
    derive = brumski_py.Differential(5, 'x', 2)

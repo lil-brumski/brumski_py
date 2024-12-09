@@ -1,1 +1,0 @@
-from .build.grade_calculator import calculator, point
